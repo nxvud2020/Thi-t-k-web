@@ -1,0 +1,33 @@
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://i.pinimg.com/originals/df/6c/99/df6c99b8b907fd1cf89fa918242a4b4d.jpg'); 
+            background-size: 100% ;
+            background-repeat: no-repeat;
+            background-position: center center;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 100%;
+            margin: 250px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        button {
+            padding: 30px 60px;
+            margin: 1%;
+            border-radius: 20px;
+            background-color: #dfe9f0;
+            color: #3f0202;
+            transition: background-color 0.3s ease;
+            font-size: 20px;
+            cursor: pointer;
+            opacity: 0.5
+        }
+        .button:hover {
+            background-color: #2d3a44;
+            opacity: 0.7;
+        }
+    
